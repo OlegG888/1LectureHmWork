@@ -39,8 +39,8 @@ public class Main {
 //        *You have array {3,2,3,1,4,2,8,3}. Replace all duplicated values by 0.
 //        Result should be  next: {3,2,0,1,4,0,8,0}
 
-        Integer[] replaceNum = {3, 2, 3, 1, 4, 2, 8, 3};
-        for (Integer i : replaceNum) {
+        Integer[] replaceNum = {30, 80, 30, 10, 40, 10, 80, 30};
+        for (int i =0; i< replaceNum.length; i++) {
             for (int j = i + 1; j < replaceNum.length; j++) {
 
                 if (replaceNum[i].equals(replaceNum[j])) {
