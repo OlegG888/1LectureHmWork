@@ -40,7 +40,7 @@ public class Main {
 //        Result should be  next: {3,2,0,1,4,0,8,0}
 
         Integer[] replaceNum = {30, 80, 30, 10, 40, 10, 80, 30};
-        for (int i =0; i< replaceNum.length; i++) {
+        for (int i = 0; i < replaceNum.length; i++) {
             for (int j = i + 1; j < replaceNum.length; j++) {
 
                 if (replaceNum[i].equals(replaceNum[j])) {
